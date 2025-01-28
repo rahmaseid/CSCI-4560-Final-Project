@@ -1,4 +1,4 @@
-# E-Commerce_Project
+# Semester Project
 
 Team Members:
 Rahma Seid
