@@ -1,6 +1,6 @@
 # Personal Budget App
 
-##
+####
 
 Our Personal Budget System is a digital tool made to help users efficiently track, manage, and plan their finances. It can record transactions, categorize expenses, set financial goals, and provide insightful reports to promote better budgeting habits.
 
