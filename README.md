@@ -81,3 +81,8 @@ Personal Budget App
 - [Jennifer Nyguen](https://github.com/Jennygit03)
 - [Tyler Roediger](https://github.com/tar3qMT)
 - [Rahma Seid](https://github.com/rahmaseid)
+
+
+## 🔗 Links
+- [GitHub Repository](https://github.com/Jennygit03/CSCI-4560)
+- [Presentation](https://docs.google.com/presentation/d/1nu7YUajwIhhEvWLHyYrKfjP0L3KbYELVvl8LDzjkTFg/edit?usp=sharing)
