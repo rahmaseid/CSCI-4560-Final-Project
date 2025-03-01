@@ -84,5 +84,5 @@ Personal Budget App
 
 
 ## 🔗 Links
-- [GitHub Repository](https://github.com/Jennygit03/CSCI-4560)
+- [GitHub Repository](https://github.com/rahmaseid/CSCI-4560-Final-Project)
 - [Presentation](https://docs.google.com/presentation/d/1nu7YUajwIhhEvWLHyYrKfjP0L3KbYELVvl8LDzjkTFg/edit?usp=sharing)
