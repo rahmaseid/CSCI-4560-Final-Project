@@ -22,7 +22,7 @@ if($SERVER['REQUEST_METHOD'] === 'POST') {
     $stmt = $pdo->prepare("INSERT INTO users(email, username, password) VALUES (?,?,?)");
     $stmt->execute([$email, $username, $hashedPassword]);
 
-    header("Location: ../frontend/login.html");
+    header("Location: login.html");
     exit;
   }
     catch(PDOException $e) {
