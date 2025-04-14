@@ -11,11 +11,12 @@ Our Personal Budget System is a digital tool made to help users efficiently trac
 
 **Backend:** Java
 
-**Frontend:** HTML, React.js, Vue.js
+**Frontend:** HTML/CSS, React.js, Vue.js
 
 **Deployment:** Docker
 
-**ERD Modeling:** ERDPlus
+**ERD Modeling:** Lucidchart
+
 
 
 ## Key Features
@@ -27,6 +28,13 @@ Our Personal Budget System is a digital tool made to help users efficiently trac
 - Cash Flow Data: Generates visual reports comparing income and expenses
 
 
+## Challenges Encountered & Viable Solutions
+- Challenge: Finding relevant datasets
+   - Solution: Using Mockaroo for data generation
+- Challenge: Cleaning and validating large datasets
+   - Solution: Implementing data cleaning scripts
+
+
 ## Schema Structure
 ```plaintext
 Personal Budget App
@@ -36,7 +44,13 @@ Personal Budget App
 |   ├── username
 |   ├── password
 |   ├── data_joined                 
-│   
+|
+├── Income
+|   ├── income_id
+|   ├── user_id
+|   ├── income_source
+|   ├── income_amount
+|   
 ├── Categories
 |   ├── categories_id
 |   ├── categories_name
@@ -75,7 +89,6 @@ Personal Budget App
 ```
 
 
-
 ## Authors
 
 - [Jennifer Nyguen](https://github.com/Jennygit03)
@@ -84,5 +97,5 @@ Personal Budget App
 
 
 ## 🔗 Links
-- [My GitHub Repository](https://github.com/rahmaseid/CSCI-4560-Final-Project)
+- [GitHub Repository](https://github.com/Jennygit03/CSCI-4560)
 - [Presentation](https://docs.google.com/presentation/d/1nu7YUajwIhhEvWLHyYrKfjP0L3KbYELVvl8LDzjkTFg/edit?usp=sharing)
