@@ -9,9 +9,9 @@ Our Personal Budget System is a digital tool made to help users efficiently trac
 
 **Database:** MySQL WorkBench
 
-**Backend:** Java
+**Backend:** PHP
 
-**Frontend:** HTML/CSS, React.js, Vue.js
+**Frontend:** HTML/CSS
 
 **Deployment:** Docker
 
