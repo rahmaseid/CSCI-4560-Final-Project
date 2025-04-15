@@ -84,5 +84,14 @@
                 this.value === "1" ? "block" : "none";
         });
     </script>
+    <script>
+        const url = new URL(window.location);
+        if (url.searchParams.get("success")) {
+          alert("Transaction added successfully!");
+          url.searchParams.delete("success");
+          window.history.replaceState({}, document.title, url.pathname);
+        }
+      </script>
+      
 </body>
 </html>
