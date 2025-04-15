@@ -61,3 +61,7 @@ CREATE TABLE Report (
     UNIQUE(user_id, report_month),
     FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
+INSERT INTO Categories (category_id, category_name)
+VALUES (1, 'General'),
+    (2, 'Shopping'),
+    (3, 'Dining');
