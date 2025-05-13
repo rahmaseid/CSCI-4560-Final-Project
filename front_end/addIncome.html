@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../styling/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Add Income</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../styling/style.css">
 </head>
 <body>
+
   <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
   <div class="container-fluid">
@@ -46,25 +47,37 @@
   </div>
 </nav>
   
-    <!-- Welcome Section -->
-      <div class="about-container">
-        <br>
-        <h2 id="welcome-msg">Welcome Back!</h2>
-        <p>Take a moment to check your progress, manage your budget, and stay on top of your
-           financial goals. Whether you're saving for something special or tracking expenses, we're here to make your budgeting journey easier!</p>
-      </div>
-  
-  
-      <script>
-      fetch('../back_end/auth/session_info.php', {
-        credentials: 'include'
-      })
-      .then(res => res.json())
-      .then(data => {
-        document.getElementById("welcome-msg").textContent = "Welcome back, " + data.username + "!";
-      });
-      </script>
+   <!-- View Income Button -->
+   <div class="container mt-5">
+      <a href="viewIncome.html" class="btn btn-success mb-3">View Income List</a>
+   </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Income Form -->
+  <div class="container mt-1">
+    <div class="card shadow-sm">
+      <div class="card-header bg-success text-white">
+        <h4 class="mb-0">Add New Income</h4>
+      </div>
+      <div class="card-body">
+        
+        <form action="http://localhost:8000/back_end/addIncome.php" method="POST">
+          <div class="mb-3">
+            <label for="income_source" class="form-label">Income Source</label>
+            <input type="text" class="form-control" id="income_source" name="income_source" placeholder="e.g. Salary, Freelance" required>
+          </div>
+          <div class="mb-3">
+            <label for="amount" class="form-label">Amount ($)</label>
+            <input type="number" step="0.01" class="form-control" id="amount" name="amount" placeholder="e.g. 500.00" required>
+          </div>
+          <button type="submit" class="btn btn-success">Add Income</button>
+          <div class="text-center mt-4">
+            <a href="home.html" class="btn btn-secondary btn-lg mt-4">← Back to Home</a>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

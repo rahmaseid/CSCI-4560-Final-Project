@@ -1,4 +1,4 @@
-/* === index.css === */
+/* === for styling === */
 * {
     margin: 0;
     padding: 0;
@@ -20,13 +20,6 @@
     background-color: #f9f9f9;
   }
   
-  .logo {
-    font-size: 26px;
-    font-weight: bold;
-    color: #3b4c5c;
-    line-height: 1.2;
-  }
-  
   nav {
     display: flex;
     align-items: center;
@@ -36,7 +29,7 @@
   
   nav a {
     text-decoration: none;
-    color: #3b4c5c;
+    color: #255c90;
     font-weight: bold;
     font-size: 20px;
   }
@@ -72,7 +65,7 @@
   }
   
   .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #929090;
   }
   
   .dropdown:hover .dropdown-content {
@@ -93,12 +86,12 @@
     margin-right: 15px;
     border-radius: 25px;
     background-color: #4c8c84;
-    color: white;
+    color: rgb(228, 235, 233);
     transition: background-color 0.3s;
   }
   
   .buttons .signin {
-    background-color: #365968;
+    background-color: #2f716c;
   }
   
   .buttons .btn:hover {
@@ -129,7 +122,6 @@
       font-weight: 700;
     }
     
-    
 
     .about-container {
     max-width: 800px;
@@ -152,18 +144,10 @@
 
 
   .btn{
-    background-color:#4c8c84;
+    background-color: #4c8c84;
   }
 
-  .btn-logout {
-    color: #333;              /* Default text color */
-    border: 1px solid #ccc;   /* Light gray border */
-    background-color: white;
-    transition: all 0.3s ease;
-  }
-  
-  .btn-logout:hover {
-    color: white;
-    background-color: #dc3545; /* Bootstrap danger red */
-    border-color: #dc3545;
+  /* === for sign in/sign up button === */
+  .me-3{
+    background-color: #4c8c84; 
   }
