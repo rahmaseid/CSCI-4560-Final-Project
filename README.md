@@ -109,19 +109,19 @@ Personal Budget App
   ### 3. Access phpMyAdmin
     - In the XAMPP Control Panel, clock **"Admin"** next to MySQL
     - This open **phpMyAdmin** in your web browser
-    - From here, make sure the database 'mixtape_db' exists
+    - From here, make sure the database 'finalproject' exists
       - If it doesn't, download the sql file directly from the github to access it
       - Then go to the **Import** tab and upload the SQL file with all the table definitions.
 
-  Look for the file: **`createTables.sql`**
+  Look for the file: **`tableSchema.sql`**
 
 
 ## Running the Program
 ### 4. Place your files
-  - Place all files from the GitHub repo into your XAMPP 'htdocs' folder: Example path: 'C:\xampp\htdocs\4410-final'
+  - Extract folder and place all files from the GitHub repo into your XAMPP 'htdocs' folder: Example path: 'C:\xampp\htdocs\budget_web'
 
 ### 5. Edit Database Connection
-  - In 'db.php', make sure to edit the connection settings match your local database systems. Example:
+  - In 'db.php', make sure to edit the connection settings to match your local database systems. Example:
     ```php
     $servername = "127.0.0.1:3308";
     $username = "root";
@@ -131,7 +131,7 @@ Personal Budget App
 
 ### 6. Access Website
 - In your browser, visit:
-   `http://localhost/<your-folder>/frontend/Mixtape.html`
+   `http://localhost/<your-folder>/front_end/index.html`
 
 
 
